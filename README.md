@@ -23,7 +23,7 @@ int num;
 
 int x;
 
-pthread_attr_t attr;                               //declare pthread_t type variable 'tid'
+pthread_attr_t attr;                                    //declare pthread_t type variable 'tid'
 
 if(argc !=2)
 
@@ -35,8 +35,8 @@ return -1;
 
 }
 
-num=atoi(argc1[1]);                           //convert string value to integer and store to 'no'
-
+num=atoi(argc1[1]);                                      //convert string value to integer and store to 'no'
+     
 
 
 if(num<0)
