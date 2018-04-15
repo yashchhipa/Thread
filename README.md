@@ -12,7 +12,7 @@
 
 int fib_arr[ARRSIZE];                                     //this array is shared by threads
 
-void *fibonacci(void *n);                            // dynamic allocation of memory
+void *fibonacci(void *n);                                 // dynamic allocation of memory
 
 
 int main(int argc,char *argc1[] )
